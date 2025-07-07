@@ -1,0 +1,9 @@
+.reports
+.reqresults/
+output/
+.vscode
+*.zip
+*.png
+*.xml
+*.html
+*.exe
