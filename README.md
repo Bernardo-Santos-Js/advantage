@@ -34,9 +34,34 @@ Esses cenários foram automatizados conforme documentação enviada por e-mail, 
 Reports
  - Está sendo usado para envio das CAPTURES PAGE, com data e hora da execução realizada, com isso cada imagem do seu teste possui o nome para facilitar a visulização
 
-
 Arquio main.robot
  - Neste arquivo estão importadas todas as bibliotecas, recursos e componentes necessários para os testes funcionarem corretamente.
 
 Arquio PageObjects
- - Centralizamos os seletores dos elementos utilizados durante os testes da funcionalidade de consulta de produto. 
+ - Centralizamos os seletores dos elementos utilizados durante os testes da funcionalidade de consulta de produto.
+   
+Observações
+O teste de upload exige um token JWT válido de um usuário admin.
+
+A imagem precisa estar no formato .jpg e no caminho definido pela variável ${IMAGE_PATH}.
+
+Verifique a documentação da API para endpoints atualizados.
+
+ Segurança e Boas Práticas
+Os arquivos .env (com variáveis sensíveis como credenciais) e resultados/ estão listados no .gitignore e não são versionados pelo Git, garantindo segurança e organização do repositório.
+
+
+ Contribuições
+Contribuições são bem-vindas! Para colaborar:
+
+Faça um fork do repositório
+
+Crie uma branch: git checkout -b minha-feature
+
+Faça commits: git commit -m "feat: nova feature"
+
+Envie a branch: git push origin minha-feature
+
+Abra um Pull Request explicando sua proposta
+
+
